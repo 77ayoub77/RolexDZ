@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0px;
+background-color: black;
+}
+.login
+{
+    background-color: rgb(122, 122, 122);
+    display: block;
+    width: 70%;
+    position: relative;
+    margin: 1% auto;
+    padding: 0% 0% 4% 0%;
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px white;
+}
+.text{
+    background-color: rgb(0, 0, 0);
+    padding: 0.5% 0%;
+    font-family: arial black;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.loimage{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+   
+    position: absolute;
+    right: 0%;
+}
+.loimage img{
+    border-radius: 10%;
+}
+.lotext{
+    padding-left: 2%;
+    margin: 0 auto;
+}
+.lotext h4{
+font-size: 25px;
+font-family: arial;
+text-transform: uppercase;
+}
+.lotext h2{
+    font-family: arial black;
+}
+.a{
+    width: 80%;
+   padding: 0%;
+   margin: 0 auto;
+   
+   padding-right: 2%;
+}
+.a h4{
+    font-size: 20px ;
+    font-family: arial;
+}
+.a input{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-family: arial black;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.b{
+    width: 80%;
+   padding: 0%;
+   margin: 0 auto;
+   text-align: center;
+   padding-right: 2%;
+}
+.b h4{
+    font-size: 20px ;
+    font-family: arial;
+}
+.b input{
+    width: 14%;
+    font-size: 15px;
+    font-family: arial black;
+    letter-spacing: 1px;
+   height: 40px;
+   border: none;
+   border-bottom: 2px solid black;
+}
+.c{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 2%;
+}
+.c h4{
+    font-size: 20px ;
+    font-family: arial;
+}
+.ca{
+    width: 50%;
+}
+.cb{
+    width: 50%;
+}
+.ca input{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-family: arial ;
+    border: none;
+    border-bottom: 2px solid black;
+  
+}
+.cb input{
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.d{
+    padding-right: 2%;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.d h4{
+    font-size: 20px ;
+    font-family: arial;
+}
+.d input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.e{
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 2%;
+
+}
+.e input{
+    width: 100%;
+    height: 50px;
+    font-size: 25px ;
+    font-family: fantasy;
+    background-color: rgb(240, 229, 79);
+    border: none;
+}
+.e input:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
